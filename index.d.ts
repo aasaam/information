@@ -31,7 +31,5 @@ interface Organization {
   sameAs: string[];
 }
 
-declare module '@aasaam/info' {
-  export const languages: string[];
-  export const Organization: Organization[];
-}
+export const languages: string[];
+export const Organization: Organization[];
