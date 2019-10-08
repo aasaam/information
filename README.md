@@ -1,6 +1,8 @@
 # aasaam information
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/aasaam/information.svg)](https://greenkeeper.io/)
+[![github](https://img.shields.io/badge/github-ready-blue?logo=github)](https://github.com/aasaam/information)
+[![npm](https://img.shields.io/npm/v/@aasaam/information)](https://www.npmjs.com/package/@aasaam/information)
 
 ![aasaam](./logo/aasaam.svg "aasaam software development logo")
 
