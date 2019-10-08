@@ -1,0 +1,41 @@
+{
+  "name": "@aasaam/information",
+  "version": "0.0.0",
+  "description": "information and logo of aasaam software development group",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "aasaam",
+    "information",
+    "logo",
+    "schema"
+  ],
+  "devDependencies": {
+    "@types/lodash": "^4",
+    "@types/node": "^12",
+    "lodash": "^4",
+    "schema-dts": "^0",
+    "ts-node": "^8",
+    "tslint": "^5",
+    "tslint-config-airbnb": "^5",
+    "tslint-sonarts": "^1",
+    "typescript": "^3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "npx git-cz",
+    "build:icons": "ts-node ./bin/build-icons.ts",
+    "build:info": "ts-node ./bin/build-info.ts"
+  },
+  "authors": [
+    {
+      "name": "Muhammad Hussein Fattahizadeh",
+      "email": "m@mhf.ir"
+    }
+  ],
+  "license": "CC-BY-NC-4.0"
+}
