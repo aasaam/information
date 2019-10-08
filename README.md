@@ -6,7 +6,7 @@
 
 This repository contain:
 
-* Standard sizes for common use cases of [logo](./logo) such as favicon and device [icons](./logo/icons).
+* Standard sizes for common use cases of [logo](./logo/aasaam.svg) such as favicon and device [icons](./logo/icons/android-chrome-256.png).
 * [Organization information](./info/en/Organization.json) on [languages](./info/languages.json)
 
 ## Usage
