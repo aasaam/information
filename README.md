@@ -9,6 +9,24 @@ This repository contain:
 * Standard sizes for common use cases of [logo](./logo) such as favicon and device [icons](./logo/icons).
 * Organization information on [languages](./info/languages.json)
 
+## Usage
+
+You can use it to grab latest information of aasaam organization
+
+```bash
+npm install @aasaam/information
+```
+
+```js
+const {
+  languages,
+  Organization,
+} = require('@aasaam/information');
+
+console.log(languages); // array of supported languages ['ar', 'de', ...]
+console.log(Organization.en); // dump english version of organization detail
+```
+
 ## Build
 
 You will need to install **node.js**, **inkscape**, **imagemagick** and **pngquant**.

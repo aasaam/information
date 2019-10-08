@@ -32,4 +32,9 @@ interface Organization {
 }
 
 export const languages: string[];
-export const Organization: Organization[];
+export const Organization: {
+  ar: Organization,
+  de: Organization,
+  en: Organization,
+  fa: Organization,
+};
