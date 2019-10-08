@@ -1,6 +1,6 @@
 # aasaam information
 
-![aasaam software development logo](./logo/aasaam.png "aasaam software development logo")
+![aasaam software development logo](./logo/icons/android-chrome-384.png "aasaam software development logo")
 
 This repository contain:
 
