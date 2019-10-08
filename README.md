@@ -11,10 +11,18 @@ This repository contain:
 
 ## Usage
 
-You can use it to grab latest information of aasaam organization
+### Node.js
 
-```bash
-npm install @aasaam/information --save
+You can use it to grab latest information of aasaam organization.
+
+Add this dependency/devDependencies into your `package.json`
+
+```json
+{
+  "dependencies": {
+    "@aasaam/information": "^0"
+  }
+}
 ```
 
 ```js
@@ -25,6 +33,12 @@ const {
 
 console.log(languages); // array of supported languages ['ar', 'de', ...]
 console.log(Organization.en); // dump english version of organization detail
+```
+
+### Raw from github page
+
+```bash
+curl -s https://aasaam.github.io/information/info/en/Organization.json | jq
 ```
 
 ## Build
