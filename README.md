@@ -1,6 +1,6 @@
 # aasaam information
 
-![aasaam software development logo](logo/aasaam.svg "aasaam software development logo")
+![aasaam software development logo](https://aasaam.github.io/information/logo/aasaam.svg "aasaam software development logo")
 
 This repository contain:
 
