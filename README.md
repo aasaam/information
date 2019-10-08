@@ -7,7 +7,7 @@
 This repository contain:
 
 * Standard sizes for common use cases of [logo](./logo) such as favicon and device [icons](./logo/icons).
-* Organization information on [languages](./info/info/languages.json)
+* Organization information on [languages](./info/languages.json)
 
 ## Build
 
