@@ -16,7 +16,7 @@ const Organization: Organization = {
   name: 'aasaam',
   url: 'https://aasaam.com/',
 
-  logo: 'https://aasaam.github.io/info/logo/aasaam.svg',
+  logo: 'https://aasaam.github.io/information/logo/aasaam.svg',
 
   email: informationEmail,
   telephone: [generalTelephone],

@@ -10,6 +10,10 @@
     "logo",
     "schema"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aasaam/information.git"
+  },
   "devDependencies": {
     "@types/lodash": "^4",
     "@types/node": "^12",
