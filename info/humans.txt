@@ -1,0 +1,114 @@
+------------------------------------------------
+Powered by aasaam. https://aasaam.com/
+
+..................hhddddddddhh..................
+.............hdmNMMMMMMMMMMMMMMNmdh.............
+..........hmMMMMMMNmmddddddmmNMMMMMMmh..........
+........dMMMMMmdh..............hdmMMMMMd........
+......dMMMMNh......................hNMMMMd......
+....hNMMMmh..........................hNMMMNh....
+...hMMMMd..........hdmNNNNNNNNNNNNd....dMMMMh...
+..hMMMNh........dNMMMMMMMMMMMMMMNh......hNMMMh..
+..NMMMh.......dNMMMMMMMMMMMMMMMMNh.......hMMMN..
+.dMMMd......dNMMMMMMMMMMMMMMMMMMMMd.......dMMMd.
+.NMMM.....dNMMMMMMMMMMMMMMMMMMMMMMM........MMMN.
+.MMMN...dNMMMMMMMMMMMMMMMMMMMMMMMMMd.......NMMM.
+.MMMN...dNMMMMMMMMMMMMMMMMMMMMMMMMMm.......NMMM.
+.NMMM.....dNMMMMMMMMMMMMMMMMMMMMMMMm.......MMMN.
+.dMMMd......dNMMMMMMMMMMMMMMMMMMMMMm......dMMMd.
+..NMMMh......hNMMMMMMMMMMMMMMMMMMMMm.....hMMMN..
+..hMMMMh....mMMMMMMMMMMMMMMMMMMMMMMm....hMMMMh..
+...hMMMMd.mMMMMMMMMMMMMMMMMMMMMMMMMm...dMMMMh...
+....hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm.hNMMMNh....
+......dMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMd......
+........dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd........
+..........hmMMMMMMMMMMMMMMMMMMMMMMMMmh..........
+.............hdmNMMMMMMMMMMMMMMNmdh.............
+..................hhddddddddhh..................
+
+Members of aasaam software development group:
+
+  Aatefeh Haghgou (عاطفه حقگو)
+  Front-end Developer (توسعه‌دهنده فرانت‌اند)
+  takrami@aasaam.com
+  http://staff.aasaam.com/takrami
+
+  Arash Abdoos (آرش عبدوس)
+  Front-end Developer (توسعه‌دهنده فرانت‌اند)
+  arash@aasaam.com
+  http://staff.aasaam.com/arash
+
+  Arash Moosavi (آرش موسوی)
+  Chief Executive Officer (مدیر عامل)
+  moosavi@aasaam.com
+  http://staff.aasaam.com/moosavi
+
+  Behzad Nooraee (بهزاد نورایی)
+  Chief Commercial officer (مدیر ارشد بازرگانی)
+  behzad@aasaam.com
+  http://staff.aasaam.com/behzad
+
+  Ehsan Tashakori (احسان تشکری)
+  Front-end Developer (توسعه‌دهنده فرانت‌اند)
+  ehsan@aasaam.com
+  http://staff.aasaam.com/ehsan
+
+  Elaheh Fazel (الهه فاضل)
+  Chief Financial Officer (مدیر ارشد مالی)
+  ef@aasaam.com
+  http://staff.aasaam.com/ef
+
+  Khashayar Moosavi (خشایار موسوی)
+  Back-end Developer (توسعه دهنده بک‌اند)
+  khashayar@aasaam.com
+  http://staff.aasaam.com/khashayar
+
+  Maani Beigy (مانی بیگی)
+  Back-end Developer (توسعه دهنده بک‌اند)
+  maani@aasaam.com
+  http://staff.aasaam.com/maani
+
+  Maryam Haghgoo (مریم حقگو)
+  Front-end Developer (توسعه‌دهنده فرانت‌اند)
+  artmary@aasaam.com
+  http://staff.aasaam.com/artmary
+
+  Mohammad Tashakori (محمد تشکری)
+  System Administrator (مدیر سیستم)
+  tashakori@aasaam.com
+  http://staff.aasaam.com/tashakori
+
+  Mohsen Tohidipour (محسن توحیدی پور)
+  Chief Communications Officer (مدیر ارشد ارتباطات)
+  neshom@aasaam.com
+  http://staff.aasaam.com/neshom
+
+  Muhammad Hussein Fattahizadeh (محمد حسین فتاحی‌زاده)
+  Chief Technology Officer (مدیر ارشد فناوری)
+  mhf@aasaam.com
+  http://staff.aasaam.com/mhf
+
+  Narges PourMoghadasi (نرگس پورمقدسی)
+  Front-end Developer (توسعه‌دهنده فرانت‌اند)
+  npm@aasaam.com
+  http://staff.aasaam.com/npm
+
+  Nazanin Zare (نازنین زارع)
+  Communications Expert (کارشناس ارتباطات)
+  nazanin@aasaam.com
+  http://staff.aasaam.com/nazanin
+
+  Saeed Panah (سعید پناه)
+  Procurement (تدارکات)
+  saeed@aasaam.com
+  http://staff.aasaam.com/saeed
+
+  Sara Pirouzvand (سارا پیروزوند)
+  Front-end Developer (توسعه‌دهنده فرانت‌اند)
+  sara@aasaam.com
+  http://staff.aasaam.com/sara
+
+  Sogol Javadi (سوگل جوادی)
+  Front-end Developer (توسعه‌دهنده فرانت‌اند)
+  sogol@aasaam.com
+  http://staff.aasaam.com/sogol

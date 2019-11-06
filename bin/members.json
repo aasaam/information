@@ -1,0 +1,121 @@
+[
+  {
+    "id": "mhf",
+    "name": "Muhammad Hussein Fattahizadeh",
+    "nameFa": "محمد حسین فتاحی‌زاده",
+    "role": "Chief Technology Officer",
+    "roleFa": "مدیر ارشد فناوری"
+  },
+  {
+    "id": "moosavi",
+    "name": "Arash Moosavi",
+    "nameFa": "آرش موسوی",
+    "role": "Chief Executive Officer",
+    "roleFa": "مدیر عامل"
+  },
+  {
+    "id": "behzad",
+    "name": "Behzad Nooraee",
+    "nameFa": "بهزاد نورایی",
+    "role": "Chief Commercial officer",
+    "roleFa": "مدیر ارشد بازرگانی"
+  },
+  {
+    "id": "ef",
+    "name": "Elaheh Fazel",
+    "nameFa": "الهه فاضل",
+    "role": "Chief Financial Officer",
+    "roleFa": "مدیر ارشد مالی"
+  },
+  {
+    "id": "neshom",
+    "name": "Mohsen Tohidipour",
+    "nameFa": "محسن توحیدی پور",
+    "role": "Chief Communications Officer",
+    "roleFa": "مدیر ارشد ارتباطات"
+  },
+  {
+    "id": "npm",
+    "name": "Narges PourMoghadasi",
+    "nameFa": "نرگس پورمقدسی",
+    "role": "Front-end Developer",
+    "roleFa": "توسعه‌دهنده فرانت‌اند"
+  },
+  {
+    "id": "artmary",
+    "name": "Maryam Haghgoo",
+    "nameFa": "مریم حقگو",
+    "role": "Front-end Developer",
+    "roleFa": "توسعه‌دهنده فرانت‌اند"
+  },
+  {
+    "id": "arash",
+    "name": "Arash Abdoos",
+    "nameFa": "آرش عبدوس",
+    "role": "Front-end Developer",
+    "roleFa": "توسعه‌دهنده فرانت‌اند"
+  },
+  {
+    "id": "takrami",
+    "name": "Aatefeh Haghgou",
+    "nameFa": "عاطفه حقگو",
+    "role": "Front-end Developer",
+    "roleFa": "توسعه‌دهنده فرانت‌اند"
+  },
+  {
+    "id": "khashayar",
+    "name": "Khashayar Moosavi",
+    "nameFa": "خشایار موسوی",
+    "role": "Back-end Developer",
+    "roleFa": "توسعه دهنده بک‌اند"
+  },
+  {
+    "id": "tashakori",
+    "name": "Mohammad Tashakori",
+    "nameFa": "محمد تشکری",
+    "role": "System Administrator",
+    "roleFa": "مدیر سیستم"
+  },
+  {
+    "id": "maani",
+    "name": "Maani Beigy",
+    "nameFa": "مانی بیگی",
+    "role": "Back-end Developer",
+    "roleFa": "توسعه دهنده بک‌اند"
+  },
+  {
+    "id": "ehsan",
+    "name": "Ehsan Tashakori",
+    "nameFa": "احسان تشکری",
+    "role": "Front-end Developer",
+    "roleFa": "توسعه‌دهنده فرانت‌اند"
+  },
+  {
+    "id": "sara",
+    "name": "Sara Pirouzvand",
+    "nameFa": "سارا پیروزوند",
+    "role": "Front-end Developer",
+    "roleFa": "توسعه‌دهنده فرانت‌اند"
+  },
+  {
+    "id": "sogol",
+    "name": "Sogol Javadi",
+    "nameFa": "سوگل جوادی",
+    "role": "Front-end Developer",
+    "roleFa": "توسعه‌دهنده فرانت‌اند"
+  },
+  {
+    "id": "nazanin",
+    "name": "Nazanin Zare",
+    "nameFa": "نازنین زارع",
+    "role": "Communications Expert",
+    "roleFa": "کارشناس ارتباطات"
+  },
+  {
+    "id": "saeed",
+    "name": "Saeed Panah",
+    "nameFa": "سعید پناه",
+    "role": "Procurement",
+    "roleFa": "تدارکات"
+  }
+]

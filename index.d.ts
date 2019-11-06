@@ -1,3 +1,12 @@
+interface Person {
+  '@type': 'Person';
+  name: string;
+  identifier: string;
+  email: string;
+  url: string;
+  jobTitle: string;
+}
+
 interface Organization {
   '@type': 'Organization';
   description: string;
@@ -7,6 +16,7 @@ interface Organization {
   email: string;
   telephone: string[];
   foundingDate: string;
+  employees: Person[];
   location: {
     '@type': 'Place';
     geo: {
@@ -31,7 +41,9 @@ interface Organization {
   sameAs: string[];
 }
 
-export const languages: string[];
+type languages = ['en', 'fa', 'ar', 'de'];
+
+export const languages: languages;
 export const Organization: {
   ar: Organization,
   de: Organization,

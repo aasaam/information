@@ -1,13 +1,52 @@
 import { execSync } from 'child_process';
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { cloneDeep, merge } from 'lodash';
 import { dirname, resolve } from 'path';
-import { Organization } from 'schema-dts';
+import { Organization, Person } from 'schema-dts';
 
-const informationEmail = 'info@aasaam.com';
-const generalTelephone = '+9821476244';
+import { sortBy } from 'lodash';
 
+const mainDomain = 'aasaam.com';
+const informationEmail = `info@${mainDomain}`;
+const generalTelephone = '+9891008212';
 const languages = ['en', 'fa', 'ar', 'de'];
+
+const memberList = sortBy(JSON.parse(readFileSync(`${__dirname}/members.json`, { encoding: 'utf8' })), (m) => {
+  return m.name;
+});
+
+const members: Person[] = [];
+const membersFa: Person[] = [];
+
+const humans: string[] = [];
+
+memberList.forEach((person) => {
+  const { id } = person;
+  const email = `${id}@${mainDomain}`;
+  const url = `http://staff.aasaam.com/${id}`;
+  members.push({
+    '@type': 'Person',
+    email,
+    identifier: id,
+    jobTitle: person.role,
+    name: person.name,
+    url,
+  });
+  membersFa.push({
+    '@type': 'Person',
+    email,
+    identifier: id,
+    jobTitle: person.roleFa,
+    name: person.nameFa,
+    url,
+  });
+
+  humans.push(`
+  ${person.name} (${person.nameFa})
+  ${person.role} (${person.roleFa})
+  ${email}
+  ${url}`);
+});
 
 const Organization: Organization = {
   '@type': 'Organization',
@@ -49,11 +88,24 @@ const Organization: Organization = {
     telephone: generalTelephone,
   },
   sameAs: [
+    'https://github.com/aasaam/',
+    'https://gitlab.com/aasaam/',
     'https://twitter.com/aasaaminfo/',
     'https://t.me/aasaaminfo/',
     'https://www.instagram.com/aasaaminfo/',
     'https://www.facebook.com/aasaaminfo/',
+    'https://medium.com/@aasaaminfo/',
+    'https://virgool.io/@aasaaminfo/',
+    'https://www.aparat.com/aasaaminfo/',
+    'https://www.youtube.com/channel/UCHenb52NxQqHaD7ojibBEEg/',
   ],
+
+  numberOfEmployees: {
+    '@type': 'QuantitativeValue',
+    value: members.length,
+  },
+
+  employees: members,
 };
 
 const OrganizationPatches = {
@@ -78,6 +130,8 @@ const OrganizationPatches = {
       addressLocality:
         'منطقه ۶، زرتشت غربی، خیابان نوری(کامبیز)، پلاک ۱۴، طبقه سوم',
     },
+
+    employees: membersFa,
   },
 
   ar: {
@@ -96,6 +150,19 @@ const OrganizationPatches = {
 writeFileSync(
   resolve(__dirname, `../info/languages.json`),
   JSON.stringify(languages, null, 2),
+);
+
+writeFileSync(
+  resolve(__dirname, `../info/humans.txt`),
+  [
+    '-'.repeat(48),
+    `Powered by ${Organization.name}. ${Organization.url}`,
+    '',
+    readFileSync(resolve(__dirname, `../aasaam-asci.txt`), { encoding: 'utf8' }),
+    `Members of ${Organization.description}:`,
+    humans.join('\n'),
+    '',
+  ].join('\n'),
 );
 
 languages.forEach((lang) => {
