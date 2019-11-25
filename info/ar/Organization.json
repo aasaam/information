@@ -44,7 +44,7 @@
   ],
   "numberOfEmployees": {
     "@type": "QuantitativeValue",
-    "value": 17
+    "value": 16
   },
   "employees": [
     {
@@ -158,14 +158,6 @@
       "jobTitle": "Communications Expert",
       "name": "Nazanin Zare",
       "url": "http://staff.aasaam.com/nazanin"
-    },
-    {
-      "@type": "Person",
-      "email": "saeed@aasaam.com",
-      "identifier": "saeed",
-      "jobTitle": "Procurement",
-      "name": "Saeed Panah",
-      "url": "http://staff.aasaam.com/saeed"
     },
     {
       "@type": "Person",

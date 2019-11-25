@@ -98,11 +98,6 @@ Members of aasaam software development group:
   nazanin@aasaam.com
   http://staff.aasaam.com/nazanin
 
-  Saeed Panah (سعید پناه)
-  Procurement (تدارکات)
-  saeed@aasaam.com
-  http://staff.aasaam.com/saeed
-
   Sara Pirouzvand (سارا پیروزوند)
   Front-end Developer (توسعه‌دهنده فرانت‌اند)
   sara@aasaam.com
