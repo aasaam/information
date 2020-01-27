@@ -62,6 +62,10 @@ const Organization: Organization = {
 
   foundingDate: '2014-10-12',
 
+  legalName: 'Dadeh Pardazan Ati Prozheh',
+  leiCode: '14004466417',
+  taxID: '411475145475',
+
   location: {
     '@type': 'Place',
     geo: {
@@ -121,6 +125,8 @@ const OrganizationPatches = {
   },
 
   fa: {
+    legalName: 'داده پردازان آتی‌پروژه',
+
     description: 'گروه نرم‌افزاری آسام',
     name: 'آسام',
 
@@ -135,6 +141,8 @@ const OrganizationPatches = {
   },
 
   ar: {
+    legalName: 'داده فردازان آتي‌فروجه',
+
     description: 'مجموعة برامج آسام',
     name: 'آسام',
 

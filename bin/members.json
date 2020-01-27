@@ -56,13 +56,6 @@
     "roleFa": "توسعه‌دهنده فرانت‌اند"
   },
   {
-    "id": "takrami",
-    "name": "Aatefeh Haghgou",
-    "nameFa": "عاطفه حقگو",
-    "role": "Front-end Developer",
-    "roleFa": "توسعه‌دهنده فرانت‌اند"
-  },
-  {
     "id": "khashayar",
     "name": "Khashayar Moosavi",
     "nameFa": "خشایار موسوی",
@@ -94,13 +87,6 @@
     "id": "sara",
     "name": "Sara Pirouzvand",
     "nameFa": "سارا پیروزوند",
-    "role": "Front-end Developer",
-    "roleFa": "توسعه‌دهنده فرانت‌اند"
-  },
-  {
-    "id": "sogol",
-    "name": "Sogol Javadi",
-    "nameFa": "سوگل جوادی",
     "role": "Front-end Developer",
     "roleFa": "توسعه‌دهنده فرانت‌اند"
   },

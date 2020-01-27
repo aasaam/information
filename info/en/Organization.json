@@ -9,6 +9,9 @@
     "+9891008212"
   ],
   "foundingDate": "2014-10-12",
+  "legalName": "Dadeh Pardazan Ati Prozheh",
+  "leiCode": "14004466417",
+  "taxID": "411475145475",
   "location": {
     "@type": "Place",
     "geo": {
@@ -44,17 +47,9 @@
   ],
   "numberOfEmployees": {
     "@type": "QuantitativeValue",
-    "value": 16
+    "value": 14
   },
   "employees": [
-    {
-      "@type": "Person",
-      "email": "takrami@aasaam.com",
-      "identifier": "takrami",
-      "jobTitle": "Front-end Developer",
-      "name": "Aatefeh Haghgou",
-      "url": "http://staff.aasaam.com/takrami"
-    },
     {
       "@type": "Person",
       "email": "arash@aasaam.com",
@@ -166,14 +161,6 @@
       "jobTitle": "Front-end Developer",
       "name": "Sara Pirouzvand",
       "url": "http://staff.aasaam.com/sara"
-    },
-    {
-      "@type": "Person",
-      "email": "sogol@aasaam.com",
-      "identifier": "sogol",
-      "jobTitle": "Front-end Developer",
-      "name": "Sogol Javadi",
-      "url": "http://staff.aasaam.com/sogol"
     }
   ]
 }

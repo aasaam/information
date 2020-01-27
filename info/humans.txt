@@ -28,11 +28,6 @@ Powered by aasaam. https://aasaam.com/
 
 Members of aasaam software development group:
 
-  Aatefeh Haghgou (عاطفه حقگو)
-  Front-end Developer (توسعه‌دهنده فرانت‌اند)
-  takrami@aasaam.com
-  http://staff.aasaam.com/takrami
-
   Arash Abdoos (آرش عبدوس)
   Front-end Developer (توسعه‌دهنده فرانت‌اند)
   arash@aasaam.com
@@ -102,8 +97,3 @@ Members of aasaam software development group:
   Front-end Developer (توسعه‌دهنده فرانت‌اند)
   sara@aasaam.com
   http://staff.aasaam.com/sara
-
-  Sogol Javadi (سوگل جوادی)
-  Front-end Developer (توسعه‌دهنده فرانت‌اند)
-  sogol@aasaam.com
-  http://staff.aasaam.com/sogol
