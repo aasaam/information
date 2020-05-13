@@ -17,7 +17,7 @@
   "homepage": "https://aasaam.github.io/information/",
   "devDependencies": {
     "@types/lodash": "^4",
-    "@types/node": "^13",
+    "@types/node": "^14.0.0",
     "lodash": "^4",
     "schema-dts": "^0",
     "ts-node": "^8",
