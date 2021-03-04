@@ -1,8 +1,10 @@
-import { execSync } from 'child_process';
-import { readFileSync, writeFileSync } from 'fs';
-import { cloneDeep, merge } from 'lodash';
-import { dirname, resolve } from 'path';
-import { Organization } from 'schema-dts';
+// eslint-disable-next-line security/detect-child-process
+const { execSync } = require('child_process');
+const { readFileSync, writeFileSync } = require('fs');
+
+// eslint-disable-next-line import/no-extraneous-dependencies
+const { cloneDeep, merge } = require('lodash');
+const { dirname, resolve } = require('path');
 
 const mainDomain = 'aasaam.com';
 const informationEmail = `info@${mainDomain}`;
@@ -22,7 +24,8 @@ const keywords = [
   'IoT',
 ];
 
-const Organization: Organization = {
+/** @type {import('schema-dts').Organization} */
+const Organization = {
   '@type': 'Organization',
 
   description: 'aasaam software development group',
@@ -221,6 +224,7 @@ writeFileSync(
 );
 
 languages.forEach((lang) => {
+  // eslint-disable-next-line security/detect-object-injection
   const data = merge(cloneDeep(Organization), OrganizationPatches[lang]);
   const jsonPath = resolve(__dirname, `../info/${lang}/Organization.json`);
   const jsonDirectory = dirname(jsonPath);
