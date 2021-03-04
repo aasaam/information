@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "brand": {
+    "name": "aasaam",
+    "description": "aasaam software development group"
+  },
+  "@type": "Product",
+  "logo": "https://aasaam.com/logo/cms.svg",
+  "image": "https://aasaam.com/logo/cms.svg",
+  "name": "CMS",
+  "description": "Content Management System",
+  "offers": {
+    "@type": "Demand",
+    "availability": "https://schema.org/OnlineOnly",
+    "url": "https://aasaam.com/en/products/cms"
+  }
+}

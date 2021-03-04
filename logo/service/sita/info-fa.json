@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "brand": {
+    "name": "آسام",
+    "description": "گروه نرم‌افزاری آسام"
+  },
+  "@type": "Product",
+  "logo": "https://aasaam.com/logo/sita.svg",
+  "image": "https://aasaam.com/logo/sita.svg",
+  "name": "سیتا",
+  "description": "سامانه یکپارچه تبلیغات آسام",
+  "offers": {
+    "@type": "Demand",
+    "availability": "https://schema.org/OnlineOnly",
+    "url": "https://aasaam.com/fa/products/sita"
+  }
+}

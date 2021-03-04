@@ -16,6 +16,7 @@
   },
   "homepage": "https://aasaam.github.io/information/",
   "devDependencies": {
+    "check-dts": "^0.4.4",
     "eslint-config-airbnb": "^18",
     "eslint-config-prettier": "^8",
     "eslint-plugin-import": "^2",
@@ -35,10 +36,11 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "check-type": "check-dts",
     "type-check": "tsc --noEmit .",
     "svgo": "svgo --config=./.svgo.config.js",
-    "build:icons": "ts-node ./bin/build-icons.ts",
-    "build:info": "ts-node ./bin/build-info.ts && ts-node ./bin/build-make.ts"
+    "build:icons": "./bin/build-icons.js",
+    "build:info": "./bin/build-info.js && ./bin/build-services.js && ./bin/build-make.js"
   },
   "authors": [
     {

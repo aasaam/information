@@ -1,4 +1,7 @@
+// Copyright (c) 2021 aasaam software development group
+
 interface Organization {
+  "@context": "https://schema.org";
   '@type': 'Organization';
   description: string;
   name: string;
@@ -60,12 +63,54 @@ interface Organization {
   sameAs: string[];
 }
 
+interface Service {
+  '@context': 'https://schema.org';
+  '@type': 'Product';
+  brand: {
+    name: string;
+    description: string;
+  },
+  logo: string;
+  image: string;
+  name: string;
+  description: string;
+  offers: {
+    '@type': 'Demand';
+    availability: 'https://schema.org/OnlineOnly';
+    url: string;
+  }
+}
+
 type languages = ['en', 'fa', 'ar', 'de'];
 
 export const languages: languages;
+
 export const Organization: {
-  ar: Organization;
-  de: Organization;
-  en: Organization;
-  fa: Organization;
+  ar: Organization,
+  de: Organization,
+  en: Organization,
+  fa: Organization,
+};
+
+export const Service: {
+  cms: {
+    fa: Service,
+    en: Service,
+  },
+  htm: {
+    fa: Service,
+    en: Service,
+  },
+  dns: {
+    fa: Service,
+    en: Service,
+  },
+  email: {
+    fa: Service,
+    en: Service,
+  },
+  sita: {
+    fa: Service,
+    en: Service,
+  },
 };

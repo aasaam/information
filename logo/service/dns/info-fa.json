@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "brand": {
+    "name": "آسام",
+    "description": "گروه نرم‌افزاری آسام"
+  },
+  "@type": "Product",
+  "logo": "https://aasaam.com/logo/dns.svg",
+  "image": "https://aasaam.com/logo/dns.svg",
+  "name": "DNS",
+  "description": "سامانه نام دامنه",
+  "offers": {
+    "@type": "Demand",
+    "availability": "https://schema.org/OnlineOnly",
+    "url": "https://aasaam.com/fa/products/dns"
+  }
+}

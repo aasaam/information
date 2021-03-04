@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { readFileSync } = require('fs');
 const { join } = require('path');
 // eslint-disable-next-line security/detect-child-process

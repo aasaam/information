@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "brand": {
+    "name": "aasaam",
+    "description": "aasaam software development group"
+  },
+  "@type": "Product",
+  "logo": "https://aasaam.com/logo/dns.svg",
+  "image": "https://aasaam.com/logo/dns.svg",
+  "name": "DNS",
+  "description": "Domain Name System",
+  "offers": {
+    "@type": "Demand",
+    "availability": "https://schema.org/OnlineOnly",
+    "url": "https://aasaam.com/en/products/dns"
+  }
+}

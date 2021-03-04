@@ -19,3 +19,5 @@ jobs:
           npm install
           npm run lint
           npm run type-check
+          npm run check-type
+          npm run build:info

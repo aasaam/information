@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // eslint-disable-next-line security/detect-child-process
 const { execSync } = require('child_process');
 const { readFileSync, writeFileSync } = require('fs');

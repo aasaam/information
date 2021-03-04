@@ -22,6 +22,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'sonarjs/no-duplicate-string': 'off',
+    'node/shebang': 'off',
     'sql/format': [
       2,
       {

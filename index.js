@@ -1,5 +1,172 @@
 module.exports = {
   languages: ['en', 'fa', 'ar', 'de'],
+  Products: {
+    cms: {
+      en: {
+        '@context': 'https://schema.org',
+        brand: {
+          name: 'aasaam',
+          description: 'aasaam software development group',
+        },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/cms.svg',
+        image: 'https://aasaam.com/logo/cms.svg',
+        name: 'CMS',
+        description: 'Content Management System',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/en/products/cms',
+        },
+      },
+      fa: {
+        '@context': 'https://schema.org',
+        brand: { name: 'آسام', description: 'گروه نرم‌افزاری آسام' },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/cms.svg',
+        image: 'https://aasaam.com/logo/cms.svg',
+        name: 'CMS',
+        description: 'سامانه مدیریت محتوا',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/fa/products/cms',
+        },
+      },
+    },
+    dns: {
+      en: {
+        '@context': 'https://schema.org',
+        brand: {
+          name: 'aasaam',
+          description: 'aasaam software development group',
+        },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/dns.svg',
+        image: 'https://aasaam.com/logo/dns.svg',
+        name: 'DNS',
+        description: 'Domain Name System',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/en/products/dns',
+        },
+      },
+      fa: {
+        '@context': 'https://schema.org',
+        brand: { name: 'آسام', description: 'گروه نرم‌افزاری آسام' },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/dns.svg',
+        image: 'https://aasaam.com/logo/dns.svg',
+        name: 'DNS',
+        description: 'سامانه نام دامنه',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/fa/products/dns',
+        },
+      },
+    },
+    email: {
+      en: {
+        '@context': 'https://schema.org',
+        brand: {
+          name: 'aasaam',
+          description: 'aasaam software development group',
+        },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/email.svg',
+        image: 'https://aasaam.com/logo/email.svg',
+        name: 'EMail',
+        description: 'EMail Management',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/en/products/dns',
+        },
+      },
+      fa: {
+        '@context': 'https://schema.org',
+        brand: { name: 'آسام', description: 'گروه نرم‌افزاری آسام' },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/email.svg',
+        image: 'https://aasaam.com/logo/email.svg',
+        name: 'EMail',
+        description: 'سامانه مدیریت ایمیل',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/fa/products/email',
+        },
+      },
+    },
+    htm: {
+      en: {
+        '@context': 'https://schema.org',
+        brand: {
+          name: 'aasaam',
+          description: 'aasaam software development group',
+        },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/htm.svg',
+        image: 'https://aasaam.com/logo/htm.svg',
+        name: 'HTM',
+        description: 'HTTP Traffic Manager',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/en/products/htm',
+        },
+      },
+      fa: {
+        '@context': 'https://schema.org',
+        brand: { name: 'آسام', description: 'گروه نرم‌افزاری آسام' },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/htm.svg',
+        image: 'https://aasaam.com/logo/htm.svg',
+        name: 'HTM',
+        description: 'سامانه مدیریت ترافیک HTTP',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/fa/products/htm',
+        },
+      },
+    },
+    sita: {
+      en: {
+        '@context': 'https://schema.org',
+        brand: {
+          name: 'aasaam',
+          description: 'aasaam software development group',
+        },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/sita.svg',
+        image: 'https://aasaam.com/logo/sita.svg',
+        name: 'Sita',
+        description: 'aasaam central advertisement manegement',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/en/products/dns',
+        },
+      },
+      fa: {
+        '@context': 'https://schema.org',
+        brand: { name: 'آسام', description: 'گروه نرم‌افزاری آسام' },
+        '@type': 'Product',
+        logo: 'https://aasaam.com/logo/sita.svg',
+        image: 'https://aasaam.com/logo/sita.svg',
+        name: 'سیتا',
+        description: 'سامانه یکپارچه تبلیغات آسام',
+        offers: {
+          '@type': 'Demand',
+          availability: 'https://schema.org/OnlineOnly',
+          url: 'https://aasaam.com/fa/products/sita',
+        },
+      },
+    },
+  },
   Organization: {
     en: {
       '@type': 'Organization',
@@ -81,6 +248,7 @@ module.exports = {
         'https://virgool.io/@aasaaminfo/',
         'https://www.aparat.com/aasaaminfo/',
       ],
+      '@context': 'https://schema.org',
     },
     fa: {
       '@type': 'Organization',
@@ -162,6 +330,7 @@ module.exports = {
         'https://virgool.io/@aasaaminfo/',
         'https://www.aparat.com/aasaaminfo/',
       ],
+      '@context': 'https://schema.org',
     },
     ar: {
       '@type': 'Organization',
@@ -243,6 +412,7 @@ module.exports = {
         'https://virgool.io/@aasaaminfo/',
         'https://www.aparat.com/aasaaminfo/',
       ],
+      '@context': 'https://schema.org',
     },
     de: {
       '@type': 'Organization',
@@ -324,6 +494,7 @@ module.exports = {
         'https://virgool.io/@aasaaminfo/',
         'https://www.aparat.com/aasaaminfo/',
       ],
+      '@context': 'https://schema.org',
     },
   },
 };
