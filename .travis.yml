@@ -1,9 +1,0 @@
-sudo: true
-language: node_js
-node_js:
-  - "14"
-install:
-  - npm install
-script:
-  - npm run lint
-  - npm run build:info
