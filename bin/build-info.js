@@ -74,8 +74,8 @@ const Organization = {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 35.7150412,
-      longitude: 51.4008997,
+      latitude: 35.7235195,
+      longitude: 51.3966331,
     },
   },
 
@@ -83,10 +83,9 @@ const Organization = {
     '@type': 'PostalAddress',
     addressCountry: 'IR',
     addressRegion: 'Tehran',
-    postalCode: '1415653364',
+    postalCode: '1413954311',
 
-    addressLocality:
-      '3rd Floor, No 14, Noori(Kambiz) St, West Zartosht St, District 6',
+    addressLocality: 'No 3, West 2nd St, Mordad St, District 6',
   },
   contactPoint: [
     {
@@ -137,8 +136,7 @@ const OrganizationPatches = {
     address: {
       addressRegion: 'Teheran',
 
-      addressLocality:
-        '3. Stock Nr. 14 Noori(Kambiz) St. Westen Zartosth St. District 6',
+      addressLocality: 'Nummer 3, West 2. Straße, Mordad-Straße, Bezirk 6',
     },
   },
 
@@ -170,8 +168,7 @@ const OrganizationPatches = {
     address: {
       addressRegion: 'تهران',
 
-      addressLocality:
-        'منطقه ۶، زرتشت غربی، خیابان نوری(کامبیز)، پلاک ۱۴، طبقه سوم',
+      addressLocality: 'منطقه ۶، گلها، خیابان مرداد، خیابان دوم غربی، پلاک ۳',
     },
   },
 
@@ -200,8 +197,7 @@ const OrganizationPatches = {
     address: {
       addressRegion: 'طهران',
 
-      addressLocality:
-        'منطقة ٦، شارع زرتشت الغربي، شارع نوري(كامبیز)، رقم 14، الطابق الثالث',
+      addressLocality: 'منطقة ٦، شارع مرداد، الشارع الثاني الغربي، رقم ۳',
     },
   },
 };
