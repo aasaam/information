@@ -205,17 +205,16 @@ module.exports = {
         },
         geo: {
           '@type': 'GeoCoordinates',
-          latitude: 35.7150412,
-          longitude: 51.4008997,
+          latitude: 35.7235195,
+          longitude: 51.3966331,
         },
       },
       address: {
         '@type': 'PostalAddress',
         addressCountry: 'IR',
         addressRegion: 'Tehran',
-        postalCode: '1415653364',
-        addressLocality:
-          '3rd Floor, No 14, Noori(Kambiz) St, West Zartosht St, District 6',
+        postalCode: '1413954311',
+        addressLocality: 'No 3, West 2nd St, Mordad St, District 6',
       },
       contactPoint: [
         {
@@ -287,17 +286,16 @@ module.exports = {
         },
         geo: {
           '@type': 'GeoCoordinates',
-          latitude: 35.7150412,
-          longitude: 51.4008997,
+          latitude: 35.7235195,
+          longitude: 51.3966331,
         },
       },
       address: {
         '@type': 'PostalAddress',
         addressCountry: 'IR',
         addressRegion: 'تهران',
-        postalCode: '1415653364',
-        addressLocality:
-          'منطقه ۶، زرتشت غربی، خیابان نوری(کامبیز)، پلاک ۱۴، طبقه سوم',
+        postalCode: '1413954311',
+        addressLocality: 'منطقه ۶، گلها، خیابان مرداد، خیابان دوم غربی، پلاک ۳',
       },
       contactPoint: [
         {
@@ -369,17 +367,16 @@ module.exports = {
         },
         geo: {
           '@type': 'GeoCoordinates',
-          latitude: 35.7150412,
-          longitude: 51.4008997,
+          latitude: 35.7235195,
+          longitude: 51.3966331,
         },
       },
       address: {
         '@type': 'PostalAddress',
         addressCountry: 'IR',
         addressRegion: 'طهران',
-        postalCode: '1415653364',
-        addressLocality:
-          'منطقة ٦، شارع زرتشت الغربي، شارع نوري(كامبیز)، رقم 14، الطابق الثالث',
+        postalCode: '1413954311',
+        addressLocality: 'منطقة ٦، شارع مرداد، الشارع الثاني الغربي، رقم ۳',
       },
       contactPoint: [
         {
@@ -451,17 +448,16 @@ module.exports = {
         },
         geo: {
           '@type': 'GeoCoordinates',
-          latitude: 35.7150412,
-          longitude: 51.4008997,
+          latitude: 35.7235195,
+          longitude: 51.3966331,
         },
       },
       address: {
         '@type': 'PostalAddress',
         addressCountry: 'IR',
         addressRegion: 'Teheran',
-        postalCode: '1415653364',
-        addressLocality:
-          '3. Stock Nr. 14 Noori(Kambiz) St. Westen Zartosth St. District 6',
+        postalCode: '1413954311',
+        addressLocality: 'Nummer 3, West 2. Straße, Mordad-Straße, Bezirk 6',
       },
       contactPoint: [
         {
