@@ -32,7 +32,7 @@
     "prettier": "^2",
     "schema-dts": "^1",
     "svgo": "^2",
-    "tsc": "^1",
+    "tsc": "^2",
     "typescript": "^4"
   },
   "scripts": {
