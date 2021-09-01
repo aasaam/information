@@ -30,7 +30,7 @@
     "eslint-plugin-sql": "^1",
     "lodash": "^4",
     "prettier": "^2",
-    "schema-dts": "^0",
+    "schema-dts": "^1",
     "svgo": "^2",
     "tsc": "^1",
     "typescript": "^4"
