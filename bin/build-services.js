@@ -77,7 +77,7 @@ const sita = {
   logo: 'https://aasaam.com/logo/sita.svg',
   image: 'https://aasaam.com/logo/sita.svg',
   name: 'Sita',
-  description: 'aasaam central advertisement manegement',
+  description: 'aasaam central advertisement management',
   offers: {
     '@type': 'Demand',
     availability: 'https://schema.org/OnlineOnly',

@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "brand": {
+    "name": "promizer",
+    "description": "promizer digital marketing platform"
+  },
+  "@type": "Product",
+  "logo": "https://promizer.com/logo/promizer.svg",
+  "image": "https://promizer.com/logo/promizer.svg",
+  "name": "promizer",
+  "description": "promizer digital marketing platform",
+  "offers": {
+    "@type": "Demand",
+    "availability": "https://schema.org/OnlineOnly",
+    "url": "https://promizer.com/"
+  }
+}
