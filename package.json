@@ -1,6 +1,6 @@
 {
   "name": "@aasaam/information",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Information and logo of aasaam software development group",
   "main": "index.js",
   "types": "index.d.ts",
