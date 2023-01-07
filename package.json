@@ -31,7 +31,7 @@
     "lodash": "^4",
     "prettier": "^2",
     "schema-dts": "^1",
-    "svgo": "^2",
+    "svgo": "^3",
     "tsc": "^2",
     "typescript": "^4"
   },
